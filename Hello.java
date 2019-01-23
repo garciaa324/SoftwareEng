@@ -6,7 +6,7 @@ public class Hello {
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("Enter your name: ");
 		name = keyboard.nextLine();
-		System.out.println("Hello " + name);
+		System.out.println(name + "is the user that is running this program.");
 		
 
 	}
